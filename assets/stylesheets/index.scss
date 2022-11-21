@@ -56,9 +56,14 @@ body {
             cursor: pointer;
         }
     }
-    main {
-        position: block;
-    }
+    
+}
+.main {
+    position: block;
+    background-color: rgb(25, 52, 47);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media(max-width:645px){
     body {

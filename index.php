@@ -30,7 +30,7 @@
             <img class="menuBtn" src="assets/images/hamburgerButton.svg" alt="">
         </div>
     </header>
-    <main>
+    <main class="main">
         <?php 
             if($_SESSION['page'] === 'Home') {
                 page('home');
